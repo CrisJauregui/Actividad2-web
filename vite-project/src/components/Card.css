@@ -1,0 +1,59 @@
+.card-producto {
+  border: 1px solid #d4cfc4;
+  border-radius: 10px;
+  padding: 0;
+  background: #fff;
+  text-align: left;
+  overflow: hidden;
+}
+
+.card-producto__imagen {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+  background: #ebe6df;
+}
+
+.card-producto__nombre {
+  margin: 0;
+  padding: 0.75rem 1rem 0.25rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: inherit;
+}
+
+.card-producto__precio {
+  margin: 0;
+  padding: 0 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #8b6914;
+}
+
+.card-producto__descripcion {
+  margin: 0;
+  padding: 0.5rem 1rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #5c564d;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card-producto {
+    background: #252220;
+    border-color: #3d3832;
+  }
+  .card-producto__imagen {
+    background: #2d2926;
+  }
+  .card-producto__nombre {
+    color: #e8e2d9;
+  }
+  .card-producto__precio {
+    color: #c4a574;
+  }
+  .card-producto__descripcion {
+    color: #9c958a;
+  }
+}
